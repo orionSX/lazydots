@@ -25,7 +25,7 @@ vim.opt.tabstop = 2
 vim.opt.wrap = false
 vim.opt.backspace = { "start", "eol", "indent" }
 vim.opt.path:append({ "**" })
-vim.opt.wildignore:append({ "*/node_modules/*", "*/venv/*" })
+-- vim.opt.wildignore:append({ "*/node_modules/*", "*/venv/*" })
 vim.opt.splitbelow = true
 vim.opt.splitright = true
 

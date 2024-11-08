@@ -10,12 +10,13 @@ keymap.set("n", "-", "<C-x>")
 keymap.set("n", "<C-a>", "gg<S-v>G")
 
 keymap.set("n", "<leader>w", ":update<Return>", opts)
+keymap.set("n", "<leader>W", ":wa<Return>", opts)
 keymap.set("n", "<leader>q", ":quit<Return>", opts)
 keymap.set("n", "<leader>Q", ":qa<Return>", opts)
+keymap.set("n", "<S-q>", ":bd<Return>", opts)
 
 keymap.set("n", "te", ":tabedit")
 keymap.set("n", "<tab>", ":tabnext<Return>", opts)
-keymap.set("n", "<s-tab>", ":tabprev<Return>", opts)
 keymap.set("n", "tw", ":tabclose<Return>", opts)
 
 keymap.set("n", "ss", ":split<Return>", opts)
@@ -25,6 +26,8 @@ keymap.set("n", "sh", "<C-w>h")
 keymap.set("n", "sk", "<C-w>k")
 keymap.set("n", "sj", "<C-w>j")
 keymap.set("n", "sl", "<C-w>l")
+
+keymap.set("n", "<S-Tab>", ":bn<Return>", opts)
 
 keymap.set("n", "<C-S-h>", "<C-w><")
 keymap.set("n", "<C-S-k>", "<C-w>>")
