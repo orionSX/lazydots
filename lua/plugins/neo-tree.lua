@@ -8,7 +8,13 @@ return {
         hide_dotfiles = false,
         hide_gitignored = true,
         hide_by_name = {
-          -- '.git',
+          ".git",
+          ".gitignore",
+          "venv",
+          "env",
+          "node_modules",
+          ".vscode",
+
           -- '.DS_Store',
           -- 'thumbs.db',
         },
